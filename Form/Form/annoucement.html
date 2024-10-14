@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #004C23;/* Warna overlay dengan opacity */
+            opacity: 0.8;
+            z-index: -1;
+        }
+        body {
+          background-image: url(/asset/46175f9ceb5c30982ef88db5e138e203.jpeg);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          background-position: center;
+          background-size: cover; 
+  background-repeat: no-repeat; 
+        }
+        body::after{
+            content: '';
+            position: absolute;
+            top: 24%;
+            left: 0%;
+            right: 0%;
+            bottom: 0%;
+            background-size: 350px;
+            opacity: 0.5;
+            z-index: -1;
+            background-repeat: no-repeat;
+          background-position: center;
+        }
+        .form-container {
+          background-color: #00A149;
+          padding: 30px;
+          border-radius: 50px;
+          /* box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); */
+          max-width: 400px;
+          width: 100%;
+          margin-top: -410px;
+        }
+        .form-container h3 {
+          color: #fff;
+          text-align: center;
+          margin-bottom: 20px;
+        }
+        .btn-kirim {
+          background-image: url(/asset/50bc743e5eb16d0d1a0c76572da996ca.png);
+          color: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 40%;
+          /* height: 100vh; */
+          background-position: center;
+          background-size: cover; 
+          background-repeat: no-repeat; 
+          float: right;
+        }
+        .form-control{
+            border-radius: 100px;
+        }
+        .header{
+            background-color: #00A149;
+            padding: 20px;
+            border-radius: 100px;
+            font-size: 20px;
+        }
+        
+        @media screen and (max-width: 768px){
+        .char1{
+          
+        }
+        .char2{
+          margin-left: 25%!important;
+        }
+        .char3{
+          margin-left: 10%!important;
+        }
+      }
+      @media screen and (max-width: 425px){
+        .char1{
+          margin-left: -23%!important;
+        }
+        .char2{
+          margin-left: 55%!important;
+        }
+        .char3{
+          margin-left: 23%!important;
+        }
+      }
+
+      @media screen and (max-width: 320px){
+        .char1{
+          height: 400px!important;
+          margin-left: -23%!important;
+        }
+        .char2{
+          height: 200px!important;
+          margin-left: 55%!important;
+          bottom: 0px!important;
+        }
+        .char3{
+          height: 200px!important;
+          margin-left: 23%!important;
+          bottom: 0px!important;
+        }
+      }
+      </style>
+       <style>
+        @import url('https://fonts.cdnfonts.com/css/andika-new-basic');
+        </style>
+</head>
+<body>
+   <div class="form-container">
+    <p  style="color: #FFF000;font-family: 'Andika New Basic', sans-serif;font-size: 25px;">Terima kasih!</p>
+    <p style="font-family: 'Andika New Basic', sans-serif;color: #fff;font-size: 18px;">Pengumuman Pemenang dapat dilihat di Instagram <span style="color: #FFF000">@hufagripp</span>  Bagi yang belum beruntung dapat mengikuti ulang  game ini pada periode...</p>
+    <img src="/asset/Vector 1.png" style="position: absolute;">
+    <div>
+        <img class="char1" src="/asset/4a6431f467e5f3855943a9a3f6c92ac6 2.png" style="height:500px;position: absolute;z-index: 1;margin-left: -9%;bottom: -119px;">
+       
+        <img class="char2" src="/asset/491a5597fbf868280ffb4a972e29dc68.png" style="width: auto;height:300px;position: absolute;margin-left: 20%;bottom: -25px;z-index: 3;">
+        <img class="char3" src="/asset/3bc5db8681b8cb495ab72c836de3fe87.png" style="width: auto;height:300px;position: absolute;margin-left: 8%;bottom: -25px;z-index: 2;">
+      </div>  
+</div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
